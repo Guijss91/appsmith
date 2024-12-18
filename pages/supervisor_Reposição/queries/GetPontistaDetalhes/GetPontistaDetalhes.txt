@@ -1,0 +1,4 @@
+SELECT u.nome, u.email, u.matricula, p.turno, p.carga_horaria_diaria
+FROM zenite.usuario u
+JOIN zenite.pontista p ON p.id_usuario = u.id_usuario
+WHERE p.id_pontista = {{SelectPontista.selectedOptionValue}};

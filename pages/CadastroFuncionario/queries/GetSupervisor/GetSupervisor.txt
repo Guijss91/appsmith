@@ -1,0 +1,3 @@
+SELECT s.id_supervisor,u.nome
+FROM zenite.supervisor s
+JOIN zenite.usuario u ON s.id_usuario = u.id_usuario;

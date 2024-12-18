@@ -1,0 +1,3 @@
+SELECT idfaltas, data
+FROM zenite.faltas
+WHERE pontista_idpontista = {{appsmith.store.idpontista}};

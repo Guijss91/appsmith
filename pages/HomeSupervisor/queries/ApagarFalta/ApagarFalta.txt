@@ -1,0 +1,2 @@
+DELETE FROM zenite.faltas
+WHERE id_faltas = 10;

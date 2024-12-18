@@ -1,0 +1,2 @@
+SELECT DISTINCT pontista_idpontista
+FROM zenite.faltas;

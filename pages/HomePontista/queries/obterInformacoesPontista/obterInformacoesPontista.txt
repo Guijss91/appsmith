@@ -1,0 +1,8 @@
+SELECT 
+    id_pontista,
+    inicio_contrato,
+    ferias_utilizadas
+FROM 
+    zenite.pontista
+WHERE 
+    id_pontista = {{appsmith.store.id_pontista}};

@@ -1,0 +1,81 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 19,
+  "boxShadow": "none",
+  "defaultText": "",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.f4dd498ee72f01127e5bfe3a1a8ad671.svg",
+  "inputType": "PASSWORD",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "phogsthh3g",
+  "label": "",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 3,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 41,
+  "mobileLeftColumn": 18,
+  "mobileRightColumn": 38,
+  "mobileTopRow": 34,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "originalBottomRow": 19,
+  "originalTopRow": 15,
+  "parentColumnSpace": 18.15625,
+  "parentId": "m1w4gkdtmh",
+  "parentRowSpace": 10,
+  "placeholderText": "Senha",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "shouldAllowAutofill": false,
+  "showStepArrows": false,
+  "tags": [
+    "Suggested",
+    "Inputs"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
+  "topRow": 15,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "gzjr03owyk",
+  "widgetName": "senha"
+}

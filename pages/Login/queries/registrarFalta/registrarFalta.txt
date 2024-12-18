@@ -1,0 +1,9 @@
+INSERT INTO zenite.faltas (
+    id_pontista, 
+    data, 
+    status
+) VALUES (
+    {{this.params.id_pontista}}, 
+    {{this.params.data}},
+    'FNJ'
+);

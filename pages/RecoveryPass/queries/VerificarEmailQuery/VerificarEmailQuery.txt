@@ -1,0 +1,3 @@
+SELECT id_usuario, email 
+FROM zenite.usuario 
+WHERE email = '{{this.params.email}}';

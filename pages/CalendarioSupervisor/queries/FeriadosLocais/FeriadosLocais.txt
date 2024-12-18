@@ -1,0 +1,2 @@
+SELECT data_feriado, descricao, id_feriado
+FROM zenite.feriados;

@@ -1,0 +1,10 @@
+SELECT
+	u.nome,
+  p.data_ponto,
+  p.horario_entrada,
+  p.horario_saida
+FROM
+  zenite.ponto p JOIN zenite.pontista a ON p.id_pontista = a.id_pontista
+	JOIN zenite.usuario u ON a.id_usuario = u.id_usuario
+ORDER BY
+  data_ponto ASC;

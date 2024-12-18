@@ -1,0 +1,74 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 14,
+  "boxShadow": "none",
+  "closeOnSelection": true,
+  "dateFormat": "YYYY-MM-DD",
+  "datePickerType": "DATE_PICKER",
+  "displayName": "DatePicker",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": 0,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.42ea2261c1fd35ebb9e4549b5028de76.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "6l00rw6i8x",
+  "label": "",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 41,
+  "maxDate": "2121-12-31T18:29:00.000Z",
+  "maxDynamicHeight": 9000,
+  "minDate": "1920-12-31T18:30:00.000Z",
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 16,
+  "mobileLeftColumn": 12,
+  "mobileRightColumn": 32,
+  "mobileTopRow": 9,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "parentColumnSpace": 10.3125,
+  "parentId": "3bjph1orna",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "searchTags": [
+    "calendar"
+  ],
+  "shortcuts": false,
+  "tags": [
+    "Inputs"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.6f2ddea04e74f31810326bef3bc239b8.svg",
+  "timePrecision": "minute",
+  "topRow": 10,
+  "type": "DATE_PICKER_WIDGET2",
+  "version": 2,
+  "widgetId": "n9sbllqtpl",
+  "widgetName": "DatePickerFim"
+}

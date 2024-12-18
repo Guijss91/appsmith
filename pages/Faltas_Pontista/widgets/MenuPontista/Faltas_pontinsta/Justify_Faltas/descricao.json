@@ -1,0 +1,78 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "defaultOptionValue": "GREEN/",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "6r7uw89yh4",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 31,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 36,
+  "mobileRightColumn": 56,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 11.022093772888184,
+  "parentId": "nsf4fmhcxb",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 51,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"Atestado\",\n    \"code\": \"atestado\"\n  },\n  {\n    \"name\": \"Outra\",\n    \"code\": \"outra\"\n  }\n]",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
+  "topRow": 1,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "kol7howj04",
+  "widgetName": "descricao"
+}

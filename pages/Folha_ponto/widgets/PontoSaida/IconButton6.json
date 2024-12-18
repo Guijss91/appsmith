@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 6,
+  "boxShadow": "none",
+  "buttonColor": "#231f20",
+  "buttonVariant": "TERTIARY",
+  "displayName": "Icon button",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconName": "time",
+  "iconSVG": "/static/media/icon.bb5d55ae67fb1687dff78e66ad1faec0.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "57kw6rtysa",
+  "leftColumn": 29,
+  "minWidth": 50,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 29,
+  "mobileRightColumn": 33,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "parentColumnSpace": 10.71875,
+  "parentId": "c8tg5e2lae",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 35,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.b02b764a52db45d332efa723178a50a4.svg",
+  "topRow": 0,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "g2p77umpeq",
+  "widgetName": "IconButton6"
+}

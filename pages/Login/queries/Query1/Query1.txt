@@ -1,0 +1,4 @@
+/*DELETE FROM zenite.faltas;
+SELECT * FROM zenite.faltas;*/
+SELECT * FROM zenite.horas_devidas;
+/*DELETE FROM zenite.horas_devidas;*/

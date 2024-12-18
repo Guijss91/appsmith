@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "664ce1518d7e96499702e486_3cea6d63-81c3-4608-8557-748bb08f397f",
+  "unpublishedPage": {
+    "isHidden": false,
+    "layouts": [
+      {
+        "dsl": {
+          "backgroundColor": "none",
+          "bottomRow": 880.0,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0.0,
+          "minHeight": 820.0,
+          "parentColumnSpace": 1.0,
+          "parentRowSpace": 1.0,
+          "rightColumn": 1224.0,
+          "snapColumns": 64.0,
+          "snapRows": 80.0,
+          "topRow": 0.0,
+          "type": "CANVAS_WIDGET",
+          "version": 90.0,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
+      }
+    ],
+    "name": "HorasPendentesSupervisor",
+    "slug": "horaspendentessupervisor"
+  }
+}

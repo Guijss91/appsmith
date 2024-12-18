@@ -1,0 +1,18 @@
+-- Obter id_pontista a partir da matricula do usuário
+WITH pontista_info AS (
+    SELECT idpontista
+    FROM zenite.pontista p
+    INNER JOIN zenite.usuario u ON p.usuario_idusuario = u.idusuario
+    WHERE u.matricula = {{appsmith.store.matricula}}
+),
+-- Verificar se já existe um registro para o id_pontista na data atual
+current_day_punch AS (
+    SELECT id
+    FROM zenite.ponto
+    WHERE id_pontista = (SELECT idpontista FROM pontista_info) AND data_ponto = CURRENT_DATE
+)
+-- Atualizar horário de saída
+UPDATE zenite.ponto
+SET horario_saida = '{{appsmith.store.horarioBrasilia}}'::TIME(0)
+WHERE id_pontista = (SELECT idpontista FROM pontista_info) AND data_ponto = CURRENT_DATE
+RETURNING id, horario_saida, data_ponto;

@@ -1,0 +1,86 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( DataAtual.setDefaultMonth()))(DropdownMonth.options, DropdownMonth.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "pve68hwdwy",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Mês",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 15,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 22,
+  "mobileRightColumn": 42,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "onOptionChange": "{{PresencaQuery.run().then(() => {});\ncalendarioScript.generateCalendar();}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 11.33251953125,
+  "parentId": "2dx42d60ry",
+  "parentRowSpace": 10,
+  "placeholderText": "Selecione o mês",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 29,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "[\n  { \"label\": \"Janeiro\", \"value\": 1 },\n  { \"label\": \"Fevereiro\", \"value\": 2 },\n  { \"label\": \"Março\", \"value\": 3 },\n  { \"label\": \"Abril\", \"value\": 4 },\n  { \"label\": \"Maio\", \"value\": 5 },\n  { \"label\": \"Junho\", \"value\": 6 },\n  { \"label\": \"Julho\", \"value\": 7 },\n  { \"label\": \"Agosto\", \"value\": 8 },\n  { \"label\": \"Setembro\", \"value\": 9 },\n  { \"label\": \"Outubro\", \"value\": 10 },\n  { \"label\": \"Novembro\", \"value\": 11 },\n  { \"label\": \"Dezembro\", \"value\": 12 }\n]\n",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
+  "topRow": 0,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "v77jimgve8",
+  "widgetName": "DropdownMonth"
+}

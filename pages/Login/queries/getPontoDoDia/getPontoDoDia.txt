@@ -1,0 +1,11 @@
+SELECT 
+    id, 
+    id_pontista, 
+    data_ponto, 
+    horario_entrada, 
+    horario_saida 
+FROM 
+    zenite.ponto
+WHERE 
+    id_pontista = {{this.params.id_pontista}}
+    AND data_ponto = {{this.params.data}}

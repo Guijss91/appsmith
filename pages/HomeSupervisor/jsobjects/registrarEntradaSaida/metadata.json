@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "664ce1518d7e96499702e486_cf489d79-2bab-4374-912e-84e5a645eb06",
+  "id": "HomeSupervisor_registrarEntradaSaida",
+  "unpublishedCollection": {
+    "name": "registrarEntradaSaida",
+    "pageId": "HomeSupervisor",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

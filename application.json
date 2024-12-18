@@ -1,0 +1,147 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "FLUID"
+  },
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "light",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": true
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#FFDEDE",
+  "embedSetting": {
+    "height": "720px",
+    "showNavigationBar": false,
+    "width": "1024px"
+  },
+  "evaluationVersion": 2,
+  "icon": "bar-graph",
+  "pages": [
+    {
+      "id": "Login",
+      "isDefault": true
+    },
+    {
+      "id": "CadastroSupervisor",
+      "isDefault": false
+    },
+    {
+      "id": "CadastroFuncionario",
+      "isDefault": false
+    },
+    {
+      "id": "CalendarioFix",
+      "isDefault": false
+    },
+    {
+      "id": "HomePontista",
+      "isDefault": false
+    },
+    {
+      "id": "Faltas_Pontista",
+      "isDefault": false
+    },
+    {
+      "id": "Funcionarios",
+      "isDefault": false
+    },
+    {
+      "id": "CalendarioSupervisor",
+      "isDefault": false
+    },
+    {
+      "id": "HomeSupervisor",
+      "isDefault": false
+    },
+    {
+      "id": "supervisor_SoliFerias",
+      "isDefault": false
+    },
+    {
+      "id": "supervisor_Reposição",
+      "isDefault": false
+    },
+    {
+      "id": "supervisor_Liberação",
+      "isDefault": false
+    },
+    {
+      "id": "Admin_VerSupervisor",
+      "isDefault": false
+    },
+    {
+      "id": "Folha_ponto",
+      "isDefault": false
+    },
+    {
+      "id": "Calendario_",
+      "isDefault": false
+    },
+    {
+      "id": "CalendarioSupervisor Copy",
+      "isDefault": false
+    },
+    {
+      "id": "Calendario_ Copy",
+      "isDefault": false
+    },
+    {
+      "id": "RecoveryPass",
+      "isDefault": false
+    },
+    {
+      "id": "NewPassChange",
+      "isDefault": false
+    },
+    {
+      "id": "FolhaPontoSupervisor",
+      "isDefault": false
+    },
+    {
+      "id": "HorasPendentesSupervisor",
+      "isDefault": false
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "light",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": true
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  }
+}

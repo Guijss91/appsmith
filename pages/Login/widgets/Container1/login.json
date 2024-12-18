@@ -1,0 +1,85 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 15,
+  "boxShadow": "none",
+  "defaultText": "",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.f4dd498ee72f01127e5bfe3a1a8ad671.svg",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "phogsthh3g",
+  "label": "",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 3,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 31,
+  "mobileLeftColumn": 18,
+  "mobileRightColumn": 38,
+  "mobileTopRow": 24,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "onTextChanged": "",
+  "originalBottomRow": 15,
+  "originalTopRow": 9,
+  "parentColumnSpace": 18.15625,
+  "parentId": "m1w4gkdtmh",
+  "parentRowSpace": 10,
+  "placeholderText": "Usuário",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "showStepArrows": false,
+  "tags": [
+    "Suggested",
+    "Inputs"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
+  "topRow": 9,
+  "type": "INPUT_WIDGET_V2",
+  "validation": "",
+  "version": 2,
+  "widgetId": "t7hw08botl",
+  "widgetName": "login"
+}

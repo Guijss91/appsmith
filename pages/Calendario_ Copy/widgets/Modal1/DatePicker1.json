@@ -1,0 +1,76 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 14,
+  "boxShadow": "none",
+  "closeOnSelection": true,
+  "dateFormat": "YYYY-MM-DD",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "2024-09-17T00:00:00.000-03:00",
+  "displayName": "DatePicker",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": 0,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.42ea2261c1fd35ebb9e4549b5028de76.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "f096r6bfvn",
+  "label": "",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 6,
+  "maxDate": "2121-12-31T18:29:00.000Z",
+  "maxDynamicHeight": 9000,
+  "minDate": "1920-12-31T18:30:00.000Z",
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 17,
+  "mobileLeftColumn": 12,
+  "mobileRightColumn": 32,
+  "mobileTopRow": 10,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "originalBottomRow": 13,
+  "originalTopRow": 8,
+  "parentColumnSpace": 8.53125,
+  "parentId": "bc6rztsmp8",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 28,
+  "searchTags": [
+    "calendar"
+  ],
+  "shortcuts": false,
+  "tags": [
+    "Inputs"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.6f2ddea04e74f31810326bef3bc239b8.svg",
+  "timePrecision": "None",
+  "topRow": 9,
+  "type": "DATE_PICKER_WIDGET2",
+  "version": 2,
+  "widgetId": "zy2itn4w77",
+  "widgetName": "DatePicker1"
+}

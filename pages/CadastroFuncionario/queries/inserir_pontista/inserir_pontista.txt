@@ -1,0 +1,10 @@
+INSERT INTO zenite.pontista (id_usuario, id_supervisor, inicio_contrato, fim_contrato, carga_horaria_diaria, turno, ferias_utilizadas)
+VALUES (
+  '{{this.params.id_usuario}}', 
+  '{{this.params.supervisor}}',
+  '{{this.params.inicio_contrato}}',
+  '{{this.params.fim_contrato}}',
+  '{{this.params.carga_horaria}}', 
+  '{{this.params.turno}}',
+  '{{this.params.ferias_utilizadas}}'
+);

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "664ce1518d7e96499702e486_9219699f-f5e8-4dd9-9cb8-aeffbe94ce10",
+  "id": "CalendarioSupervisor_calendarioScript",
+  "unpublishedCollection": {
+    "name": "calendarioScript",
+    "pageId": "CalendarioSupervisor",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

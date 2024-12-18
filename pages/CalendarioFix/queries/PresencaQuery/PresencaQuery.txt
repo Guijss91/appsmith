@@ -1,0 +1,10 @@
+SELECT data_ponto,
+       CASE 
+           WHEN horario_entrada IS NOT NULL AND horario_saida IS NOT NULL THEN 'Presente'
+           WHEN horario_entrada IS NOT NULL AND horario_saida IS NULL THEN 'Expediente Incompleto'
+           ELSE 'Ausente'
+       END AS status
+FROM zenite.ponto
+WHERE id_pontista = {{appsmith.store.id_pontista}} 
+AND EXTRACT(MONTH FROM data_ponto) = {{DropdownMonth.selectedOptionValue}} 
+AND EXTRACT(YEAR FROM data_ponto) = {{DropdownYear.selectedOptionValue}};

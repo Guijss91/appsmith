@@ -1,0 +1,2 @@
+DELETE FROM zenite.ponto
+WHERE id = 10;

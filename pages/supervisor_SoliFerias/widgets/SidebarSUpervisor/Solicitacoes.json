@@ -1,0 +1,111 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 36,
+  "boxShadow": "none",
+  "configureMenuItems": {
+    "config": {
+      "id": "config",
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Menu Item"
+    },
+    "id": "config",
+    "label": "Configure menu items"
+  },
+  "displayName": "Menu button",
+  "dynamicBindingPathList": [
+    {
+      "key": "menuColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuItems.menuItem3.onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconName": "chat",
+  "iconSVG": "/static/media/icon.33a4057faa7212849fa6ff1f15f2da0f.svg",
+  "isCompact": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "0vs87yl2bz",
+  "label": " Solicitações",
+  "leftColumn": 0,
+  "menuColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "menuItems": {
+    "menuItem1": {
+      "id": "menuItem1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Pedidos Férias",
+      "onClick": "{{navigateTo('supervisor_SoliFerias', {}, 'SAME_WINDOW');}}",
+      "widgetId": ""
+    },
+    "menuItem2": {
+      "id": "menuItem2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Pedidos Reposição",
+      "onClick": "{{navigateTo('supervisor_Reposição', {}, 'SAME_WINDOW');}}",
+      "widgetId": ""
+    },
+    "menuItem3": {
+      "id": "menuItem3",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Pedidos Liberação",
+      "onClick": "{{navigateTo('supervisor_Liberação', {}, 'SAME_WINDOW');}}",
+      "widgetId": ""
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "TERTIARY",
+  "mobileBottomRow": 38,
+  "mobileLeftColumn": 12,
+  "mobileRightColumn": 28,
+  "mobileTopRow": 34,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "originalBottomRow": 69,
+  "originalTopRow": 65,
+  "parentColumnSpace": 3.40234375,
+  "parentId": "cec1pqatui",
+  "parentRowSpace": 10,
+  "placement": "START",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "sourceData": "[]",
+  "tags": [
+    "Buttons"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.57aa4a1b6aaab3ade6ce3bc3a1177531.svg",
+  "topRow": 32,
+  "type": "MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "9gw5q19r2p",
+  "widgetName": "Solicitacoes"
+}

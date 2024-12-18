@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "664ce1518d7e96499702e486_9be0c519-a762-48a1-ad22-004cc61e4920",
+  "id": "CadastroSupervisor_cadastrarSupervisor",
+  "unpublishedCollection": {
+    "name": "cadastrarSupervisor",
+    "pageId": "CadastroSupervisor",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

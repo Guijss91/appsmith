@@ -1,0 +1,33 @@
+{
+  "gitSyncId": "664ce1518d7e96499702e486_0655cc32-f923-42f7-b00e-0451be57c99f",
+  "unpublishedPage": {
+    "customSlug": "",
+    "isHidden": false,
+    "layouts": [
+      {
+        "dsl": {
+          "backgroundColor": "none",
+          "bottomRow": 870.0,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0.0,
+          "minHeight": 820.0,
+          "parentColumnSpace": 1.0,
+          "parentRowSpace": 1.0,
+          "rightColumn": 1224.0,
+          "snapColumns": 64.0,
+          "snapRows": 80.0,
+          "topRow": 0.0,
+          "type": "CANVAS_WIDGET",
+          "version": 90.0,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
+      }
+    ],
+    "name": "CalendarioFix",
+    "slug": "calendariofix"
+  }
+}

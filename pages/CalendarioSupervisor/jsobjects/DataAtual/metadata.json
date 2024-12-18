@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "664ce1518d7e96499702e486_2d818101-ad4d-412a-a0ad-57260e94d766",
+  "id": "CalendarioSupervisor_DataAtual",
+  "unpublishedCollection": {
+    "name": "DataAtual",
+    "pageId": "CalendarioSupervisor",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

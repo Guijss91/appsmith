@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "664ce1518d7e96499702e486_51d074e7-4ede-426f-b70a-25e41b93b72a",
+  "unpublishedPage": {
+    "isHidden": false,
+    "layouts": [
+      {
+        "dsl": {
+          "backgroundColor": "none",
+          "bottomRow": 790.0,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0.0,
+          "minHeight": 810.0,
+          "parentColumnSpace": 1.0,
+          "parentRowSpace": 1.0,
+          "rightColumn": 1224.0,
+          "snapColumns": 64.0,
+          "snapRows": 79.0,
+          "topRow": 0.0,
+          "type": "CANVAS_WIDGET",
+          "version": 90.0,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
+      }
+    ],
+    "name": "Folha_ponto",
+    "slug": "folha-ponto"
+  }
+}

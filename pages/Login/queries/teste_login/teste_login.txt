@@ -1,0 +1,12 @@
+SELECT 
+  u.matricula, 
+  u.nome, 
+  u.senha_hash,
+  p.id_pontista,
+	s.id_supervisor
+FROM 
+  zenite.usuario u
+  LEFT JOIN zenite.pontista p ON p.id_usuario = u.id_usuario
+	LEFT JOIN zenite.supervisor s ON s.id_usuario = u.id_usuario
+WHERE
+  u.nome = '{{login.text}}';

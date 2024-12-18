@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "664ce1518d7e96499702e486_6bda3086-e169-46f5-9289-4dc2966131cb",
+  "id": "HomeSupervisor_VerificarFaltas",
+  "unpublishedCollection": {
+    "name": "VerificarFaltas",
+    "pageId": "HomeSupervisor",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

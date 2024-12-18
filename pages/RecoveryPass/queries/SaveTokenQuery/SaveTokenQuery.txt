@@ -1,0 +1,1 @@
+SELECT * FROM zenite.reset_tokens ORDER BY id DESC LIMIT 1;

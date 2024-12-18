@@ -1,0 +1,10 @@
+SELECT
+  data_ponto,
+  horario_entrada,
+  horario_saida
+FROM
+  zenite.ponto
+WHERE
+  id_pontista = {{appsmith.store.id_pontista}}
+ORDER BY
+  data_ponto DESC;

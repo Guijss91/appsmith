@@ -1,0 +1,8 @@
+SELECT 
+    p.id_pontista, 
+    u.nome,
+		p.carga_horaria_diaria
+FROM 
+    zenite.pontista p
+INNER JOIN 
+		zenite.usuario u ON p.id_usuario = u.id_usuario

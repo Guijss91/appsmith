@@ -1,0 +1,81 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 40,
+  "boxShadow": "none",
+  "closeOnSelection": true,
+  "dateFormat": "YYYY-MM-DD",
+  "datePickerType": "DATE_PICKER",
+  "defaultDate": "2024-06-21",
+  "displayName": "DatePicker",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultDate"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "firstDayOfWeek": 0,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.42ea2261c1fd35ebb9e4549b5028de76.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "1a3xo9s083",
+  "label": "Fim do Contrato",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 49,
+  "maxDate": "2121-12-31T18:29:00.000Z",
+  "maxDynamicHeight": 9000,
+  "minDate": "1920-12-31T18:30:00.000Z",
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 41,
+  "mobileLeftColumn": 40,
+  "mobileRightColumn": 60,
+  "mobileTopRow": 34,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "originalBottomRow": 42,
+  "originalTopRow": 35,
+  "parentColumnSpace": 10.18408203125,
+  "parentId": "4hik5w9wnj",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "searchTags": [
+    "calendar"
+  ],
+  "shortcuts": false,
+  "tags": [
+    "Inputs"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.6f2ddea04e74f31810326bef3bc239b8.svg",
+  "timePrecision": "minute",
+  "topRow": 33,
+  "type": "DATE_PICKER_WIDGET2",
+  "version": 2,
+  "widgetId": "oxuef8uait",
+  "widgetName": "fim_contrato"
+}

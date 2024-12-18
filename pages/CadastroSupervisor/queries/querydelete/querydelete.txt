@@ -1,0 +1,2 @@
+/*DELETE FROM zenite.usuario WHERE id_usuario = 220;*/
+SELECT * FROM zenite.usuario;

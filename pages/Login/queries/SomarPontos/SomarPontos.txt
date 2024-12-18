@@ -1,0 +1,9 @@
+SELECT * FROM zenite.horas_devidas;
+/*SELECT 
+    id_pontista,
+    TO_CHAR(SUM(horas_devidas::interval), 'HH24:MI:SS') AS horas_totais_devidas
+FROM 
+    zenite.horas_devidas
+GROUP BY 
+    id_pontista;*/
+

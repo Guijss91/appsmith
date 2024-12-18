@@ -1,0 +1,78 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 19,
+  "boxShadow": "none",
+  "defaultText": "",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.f4dd498ee72f01127e5bfe3a1a8ad671.svg",
+  "inputType": "TEXT",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "spkr6q4ujt",
+  "label": "Nome",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 3,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 15,
+  "mobileRightColumn": 35,
+  "mobileTopRow": 30,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "originalBottomRow": 19,
+  "originalTopRow": 12,
+  "parentColumnSpace": 18.15625,
+  "parentId": "eia5v7gkfp",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 59,
+  "searchTags": [
+    "form",
+    "text input",
+    "number",
+    "textarea"
+  ],
+  "showStepArrows": false,
+  "tags": [
+    "Suggested",
+    "Inputs"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.a4eac1a16753ea7fc54cac7731f9ea6a.svg",
+  "topRow": 12,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "m7slk1224r",
+  "widgetName": "nomeInput"
+}

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "664ce1518d7e96499702e486_4579552a-eca3-48ce-ba06-7ddca35fd718",
+  "id": "Calendario__DataAtual",
+  "unpublishedCollection": {
+    "name": "DataAtual",
+    "pageId": "Calendario_",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

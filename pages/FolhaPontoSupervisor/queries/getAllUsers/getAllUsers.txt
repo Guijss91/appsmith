@@ -1,0 +1,3 @@
+SELECT p.id_pontista,u.nome
+FROM zenite.pontista p
+JOIN zenite.usuario u ON p.id_usuario = u.id_usuario;

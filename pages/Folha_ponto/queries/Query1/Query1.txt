@@ -1,0 +1,1 @@
+UPDATE zenite.ponto SET horario_saida = '17:50:52' WHERE id = 699;

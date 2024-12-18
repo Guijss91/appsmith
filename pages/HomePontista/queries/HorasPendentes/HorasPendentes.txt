@@ -1,0 +1,9 @@
+SELECT 
+    id_pontista,
+    TO_CHAR(SUM(horas_devidas::interval), 'HH24:MI:SS') AS horas_totais_devidas
+FROM 
+    zenite.horas_devidas
+WHERE
+    id_pontista = {{appsmith.store.id_pontista}}
+GROUP BY 
+    id_pontista;

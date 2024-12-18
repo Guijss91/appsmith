@@ -1,0 +1,2 @@
+INSERT INTO zenite.horas_devidas (id_pontista, data, horas_devidas) 
+VALUES ({{this.params.id_pontista}}, {{this.params.data}}, {{this.params.horas_devidas}});

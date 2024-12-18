@@ -1,0 +1,83 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#E0DEDE",
+  "borderWidth": "1",
+  "bottomRow": 77,
+  "boxShadow": "NONE",
+  "children": [
+    {
+      "bottomRow": 770,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "isLoading": false,
+      "isVisible": true,
+      "leftColumn": 0,
+      "minHeight": 1525.5625,
+      "parentColumnSpace": 1,
+      "parentId": "74n110sqr6",
+      "parentRowSpace": 1,
+      "props": {
+        "canExtend": false,
+        "children": [],
+        "containerStyle": "none",
+        "detachFromLayout": true
+      },
+      "renderMode": "CANVAS",
+      "rightColumn": 1208.5625,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "pmzu36hdb9",
+      "widgetName": "Canvas11"
+    }
+  ],
+  "containerStyle": "card",
+  "displayName": "Container",
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "stretch",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.dcc052e58db911c4c8955c200f4bcf5c.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "brw200wtsu",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "minWidth": 450,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "parentColumnSpace": 18.8837890625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "div",
+    "parent",
+    "group"
+  ],
+  "shouldScrollContents": true,
+  "tabId": "",
+  "tags": [
+    "Layout"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.6cb355b93146b5347bbb048a568ed446.svg",
+  "topRow": 0,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "74n110sqr6",
+  "widgetName": "Container1"
+}

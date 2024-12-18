@@ -1,0 +1,6 @@
+SELECT
+  *
+FROM
+  zenite.feriados
+WHERE
+  "descricao" ilike '%{{DropdownFeriado.filterText}}%'

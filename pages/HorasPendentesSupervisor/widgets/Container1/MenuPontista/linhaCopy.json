@@ -1,0 +1,53 @@
+{
+  "animateLoading": true,
+  "bottomRow": 71,
+  "capSide": 0,
+  "capType": "nc",
+  "displayName": "Divider",
+  "dividerColor": "#858282",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.2d8f0568561ab85a8d38356420942b62.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "imw2j70r9w",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "orientation": "horizontal",
+  "originalBottomRow": 71,
+  "originalTopRow": 67,
+  "parentColumnSpace": 11.7607421875,
+  "parentId": "scrb0d162l",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "searchTags": [
+    "line"
+  ],
+  "strokeStyle": "solid",
+  "tags": [
+    "Layout"
+  ],
+  "thickness": "1",
+  "thumbnailSVG": "/static/media/thumbnail.85250b0a5e6d690bf6499c965e769b14.svg",
+  "topRow": 67,
+  "type": "DIVIDER_WIDGET",
+  "version": 1,
+  "widgetId": "yqpqh5z2ie",
+  "widgetName": "linhaCopy"
+}

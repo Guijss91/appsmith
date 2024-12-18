@@ -1,0 +1,23 @@
+-- Obter id_pontista a partir da matricula do usuário
+WITH pontista_info AS (
+    SELECT id_pontista
+    FROM zenite.pontista p
+    INNER JOIN zenite.usuario u ON p.id_usuario = u.id_usuario
+    WHERE u.matricula = {{appsmith.store.matricula}}
+),
+-- Verificar se já existe um registro para o id_pontista na data atual
+current_day_punch AS (
+    SELECT id
+    FROM zenite.ponto
+    WHERE id_pontista = (SELECT id_pontista FROM pontista_info) AND data_ponto = CURRENT_DATE
+)
+-- Inserir ou atualizar horário de entrada
+INSERT INTO zenite.ponto (id_pontista, horario_entrada, data_ponto)
+SELECT 
+    (SELECT id_pontista FROM pontista_info), 
+    '{{appsmith.store.horarioBrasilia}}'::TIME, 
+    CURRENT_DATE
+WHERE NOT EXISTS (SELECT 1 FROM current_day_punch)
+ON CONFLICT (id_pontista, data_ponto) DO UPDATE 
+SET horario_entrada = EXCLUDED.horario_entrada
+RETURNING id, horario_entrada, data_ponto;

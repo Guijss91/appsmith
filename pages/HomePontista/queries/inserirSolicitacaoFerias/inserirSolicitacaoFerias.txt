@@ -1,0 +1,8 @@
+INSERT INTO zenite.ferias (id_pontista, status, data_inicio, data_fim)
+VALUES (
+  {{appsmith.store.id_pontista}}, 
+  'P',
+  '{{DatePickerInicio.selectedDate}}',
+  '{{DatePickerFim.selectedDate}}'
+)
+RETURNING id_ferias, id_pontista, status, data_inicio, data_fim;

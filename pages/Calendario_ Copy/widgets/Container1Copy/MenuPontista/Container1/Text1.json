@@ -1,0 +1,79 @@
+{
+  "animateLoading": "true",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 48,
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "animateLoading"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a55b701a2ae86aa2c6718ecb7b4083f0.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "o318ecxbil",
+  "leftColumn": 3,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 25,
+  "mobileLeftColumn": 21,
+  "mobileRightColumn": 37,
+  "mobileTopRow": 21,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "originalBottomRow": 48,
+  "originalTopRow": 7,
+  "overflow": "NONE",
+  "parentColumnSpace": 10.336181640625,
+  "parentId": "2dx42d60ry",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "searchTags": [
+    "typography",
+    "paragraph",
+    "label"
+  ],
+  "shouldScrollContents": true,
+  "shouldTruncate": false,
+  "tags": [
+    "Suggested",
+    "Content"
+  ],
+  "text": "<div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; width: 100%; margin-bottom: -32px;\">\n  <div style=\"width: 14.28%; text-align: center;\">D</div>\n  <div style=\"width: 14.28%; text-align: center;\">S</div>\n  <div style=\"width: 14.28%; text-align: center;\">T</div>\n  <div style=\"width: 14.28%; text-align: center;\">Q</div>\n  <div style=\"width: 14.28%; text-align: center;\">Q</div>\n  <div style=\"width: 14.28%; text-align: center;\">S</div>\n  <div style=\"width: 14.28%; text-align: center;\">S</div>\n</div>\n<div style=\"display: flex; flex-wrap: wrap; width: 100%;\">\n  {{ \n    calendarioScript.generateCalendar().map(day => `\n      <div style=\"width: 14.28%; text-align: center; position: relative; margin-bottom: -50px;\">\n        <div>${day.day !== '' ? day.day : ''}</div>\n        <div style=\"background-color: ${day.status === 'Presente' ? 'green' : \n                                         day.status === 'Expediente Incompleto' ? 'yellow' : \n                                         day.status === 'Ausente' && day.day !== '' ? 'red' : \n                                         day.status === 'Fim de Semana' || day.status === 'Feriado' ? 'gray' : \n                                         'transparent'}; \n                     width: 15px; height: 15px; border-radius: 50%; margin: -26px auto 0;\"\n             title=\"${day.tooltip ? day.tooltip : day.status}\"></div>\n      </div>\n    `).join('') \n  }}\n</div>\n",
+  "textAlign": "CENTER",
+  "textColor": "#231F20",
+  "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
+  "topRow": 7,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "nysogcye1n",
+  "widgetName": "Text1"
+}

@@ -1,0 +1,2 @@
+INSERT INTO zenite.pontista (turno) VALUES ('{{turno.selectedOptionValue}}');
+

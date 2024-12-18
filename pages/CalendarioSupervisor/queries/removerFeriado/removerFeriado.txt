@@ -1,0 +1,2 @@
+DELETE FROM zenite.feriados
+WHERE id_feriado = {{DropdownFeriado.selectedOptionValue}};

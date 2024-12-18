@@ -1,0 +1,4 @@
+SELECT p.carga_horaria_diaria, po.horario_entrada
+FROM zenite.pontista p
+INNER JOIN zenite.ponto po ON p.id_pontista = po.id_pontista
+WHERE po.id_pontista = {{appsmith.store.id_pontista}} AND po.data_ponto = CURRENT_DATE;

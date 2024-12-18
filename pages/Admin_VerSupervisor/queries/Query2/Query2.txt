@@ -1,0 +1,5 @@
+-- Truncar a tabela zenite.supervisor para remover todos os dados
+TRUNCATE TABLE zenite.supervisor RESTART IDENTITY CASCADE;
+
+-- Redefinir manualmente a sequência para o ID do supervisor
+SELECT setval('zenite_supervisor_idsupervisor_seq', (SELECT MAX(idsupervisor) FROM zenite.supervisor) + 1);

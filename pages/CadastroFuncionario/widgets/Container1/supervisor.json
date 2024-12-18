@@ -1,0 +1,83 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 31,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "xk59213xx8",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Supervisor",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 33,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 41,
+  "mobileLeftColumn": 38,
+  "mobileRightColumn": 58,
+  "mobileTopRow": 34,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 33,
+  "originalTopRow": 27,
+  "parentColumnSpace": 10.18408203125,
+  "parentId": "4hik5w9wnj",
+  "parentRowSpace": 10,
+  "placeholderText": "Selecione",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "{{GetSupervisor.data.map(row => {\n  return { label: row.nome, value: row.id_supervisor }\n})}}",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
+  "topRow": 25,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "jlmwp7yhwd",
+  "widgetName": "supervisor"
+}

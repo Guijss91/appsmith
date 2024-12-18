@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "664ce1518d7e96499702e486_a4fab0d3-186c-4f93-8843-ca659026a6db",
+  "id": "HomeSupervisor_horario",
+  "unpublishedCollection": {
+    "name": "horario",
+    "pageId": "HomeSupervisor",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

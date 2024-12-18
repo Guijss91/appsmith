@@ -1,0 +1,3 @@
+INSERT INTO zenite.supervisor (id_usuario)
+VALUES ({{this.params.id_usuario}})
+RETURNING id_supervisor;
